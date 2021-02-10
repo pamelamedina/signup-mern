@@ -1,0 +1,9 @@
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+    "fullName" : "Casey Ann Roberts",
+    "userName" : "Batgirl",
+    "email"    : "batgirl@mail.com",
+    "password" : "batgirl"
+}
